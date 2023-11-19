@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
 </head>
+
 <body>
-<center><fieldset style="width: 300px; height: 300px;">
- <form action="login" method="post">
-   <table>
-	   <style>
-		   body {
-			   background-image: url(https://images.unsplash.com/photo-1502301103665-0b95cc738daf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80);
-			   background-repeat: no-repeat;
-			   background-size: cover;
-			   color: white;
-		   }
-	   </style>
-				<h1>LOGIN</h1>
-               <tr>
-                <td><input type="email" name="email" id="first" placeholder="email/mobile" required style="height: 30px; width: 300px; font-size: 20px; "></td>
-                </tr>
-                <tr>
-                <td><input type="password" name="password" id="first" placeholder="password" required style="height: 30px;  width: 300px; font-size: 20px;"></td>
-                </td>
-               <tr>
-					<td>
-						<button style=" height: 30px; width: 150px; background-color: lightblue;" >Login</button>
-						<button style=" height: 30px; width: 150px; background-color: lightblue;">Cancel</button>
-					</td>
-				</tr>
+	<style>
+		body {
+			background-image: url(https://cdn.sortiraparis.com/images/80/100789/834071-too-restaurant-too-hotel-paris-photos-menu-entrees.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: white;
+			
+		}
+	</style>
+	<h1>
+		<marquee behavior="" direction="" scrollamount="30">WELCOME TO MY RESTAURENT</marquee>
+	</h1>
+	<div>
+		<h1>Login</h1>
+	</div>
+	<div id="mainc">
+
+		<form action="login" method="post">
+			<table>
+
+
 				<tr>
-					<th style="font-size: 30px;">Forget password?</td>
+					<td><label for="email">Email</label></td>
+					<td><input type="email" name="email" id="log-em" placeholder="enter your email" required></td>
+
 				</tr>
+
 				<tr>
-					<td><a href="signup.html">New?Cleak here to Create Account</a></td>
+					<td><label for="pass">Password</label></td>
+					<td><input type="password" name="pass" id="log-pass" placeholder="enter password" required></td>
 				</tr>
-					
+
+
+				<tr>
+					<td><button>Login</button></td>
+					<td><button type="reset">Cancel</button></td>
+				</tr>
+
 			</table>
-                </form>
-                <a href="Home.html"><button style=" height: 30px; width: 150px;">Back</button></a>
-               </fieldset>
-               </center>
+			<form>
+				<h4><a href="./forgotpass.html">Forgot Password</a></h4>
+				<h5>New? click here for <a href="signup.html">Signup</a></h5>
+
+
+	</div>
 </body>
+
 </html>
